@@ -1,0 +1,419 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+}
+
+/* Estilo da Seção de download */
+#box-download {
+    font-family: 'Bai Jamjuree', sans-serif;
+    width: 100%;
+    padding: 110px 5px 5px 5px;
+    margin-bottom: 100px;
+    background: url('../images/bg-header-mobile.png') no-repeat top right;
+}
+
+#box-download svg {
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+
+#box-download h2 {
+    color: rgb(76, 84, 93);
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#box-download p {
+    color: rgb(159, 171, 178);
+    text-align: center;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0 auto;
+}
+
+.size-modification {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilo Responsivo da Seção de download */
+@media (min-width: 600px) {
+
+    #box-download {
+        background: url('../images/bg-header-desktop.png') no-repeat top right;
+    }
+
+    #box-download p {
+        width: 48%;
+    }
+
+    #section-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    #section-button .button-one {
+        margin-right: 10px;
+    }
+
+    #section-button .button-two {
+        margin-left: 10px;
+    }
+
+}
+
+/* Estilo da Seção dos botões */
+#section-button {
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-top: 40px;
+}
+
+#section-button button {
+    display: block;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    height: 50px;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 40px;
+    border: none;
+}
+
+#section-button .button-one {
+    background: hsl(171, 66%, 44%);
+    box-shadow: 0px 3px hsl(171, 66%, 30%);
+}
+
+#section-button .button-one:active {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#section-button .button-two {
+    background: hsl(233, 100%, 69%);
+    box-shadow: 0px 3px hsl(233, 46%, 41%)
+}
+
+#section-button .button-two:active {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+/* Estilo da Seção de conteúdo */
+#main-content {
+    font-family: 'Bai Jamjuree', sans-serif;
+    width: 100%;
+    margin-bottom: 100px;
+    padding: 5px;
+}
+
+.standard-size {
+    color: rgb(76, 84, 93);
+    text-align: center;
+    font-weight: 600;
+    margin: 0px auto 20px auto;
+}
+
+.custom-size {
+    width: 90%;
+}
+
+.default-text {
+    color: rgb(159, 171, 178);
+    text-align: center;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0px auto;
+}
+
+.bottom-space {
+    margin-bottom: 40px;
+}
+
+.image-computer {
+    display: block;
+    width: 300px;
+    margin: 60px auto 40px auto;
+}
+
+/* Estilo Responsivo da Seção de conteúdo */
+@media (min-width: 1200px) {
+
+    #main-content {
+        position: relative;
+    }
+
+    #main-content .responsive-text-content {
+        width: 67%;
+    }
+
+    #main-content img {
+        position: absolute;
+        width: 750px;
+        left: -60px;
+        top: 160px;
+    }
+
+    #main-content #extra-content {
+        position: absolute;
+        right: 140px;
+        top: 250px;
+        width: 380px;
+    }
+
+    #extra-content p {
+        text-align: justify;
+    }
+
+    .escape {
+        clear: both;
+        margin-top: 670px;
+    }
+
+}
+
+/* Estilo da Seção de Conteúdo extra */
+
+/*
+    ____________________ 
+   /____________________\
+   |____________________|
+   |        {-}         |
+   |                    |
+   |____________________|
+
+*/
+
+/* Estilo da Área Transferência */
+#clipboard {
+    font-family: 'Bai Jamjuree', sans-serif;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 100px;
+}
+
+.size-transfer {
+    width: 90%;
+}
+
+/* Estilo Responsivo da Área Transferência */
+@media (min-width: 700px) {
+
+    .responsive-text-transferencia {
+        width: 55%;
+    }
+
+    .image-computer {
+        width: 700px;
+    }
+
+}
+
+
+/* Estilo para Exemplos para Produtividade */
+#productivity-area {
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding: 5px;
+    margin-bottom: 100px;
+}
+
+.centralizer-images {
+    display: block;
+    margin: 0px auto 40px auto;
+}
+
+/*Estilo Responsivo de Exemplos para Produtividade */
+@media (min-width: 750px) {
+
+    #productivity-area {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #productivity-area div {
+        width: 30%;
+    }
+
+}
+
+/* Estilo para Empresas marcas */
+#brands {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 100px;
+}
+
+.final-formatting {
+    display: block;
+    margin: 0px auto 60px auto;
+}
+
+/* Estilo Responsivo de Empresas marcas */
+@media (min-width: 750px) {
+
+    #brands {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #brands img {
+        height: 35px;
+    }
+
+}
+
+/* Estilo para Transfêrencia iOS e Mac OS */
+
+
+#location-transfer {
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding: 5px;
+    margin-bottom: 200px;
+}
+
+#location-transfer h2 {
+    width: 95%;
+}
+
+#location-transfer p {
+    width: 98.3%;
+    margin-bottom: 40px;
+}
+
+#button-area button {
+    display: block;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    height: 50px;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 40px;
+    border: none;
+}
+
+#button-area button.button-area-one {
+    background: hsl(171, 66%, 44%);
+    box-shadow: 0px 3px hsl(171, 66%, 30%);
+}
+
+#button-area button.button-area-one:active {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#button-area button.button-area-two {
+    background:hsl(233, 100%, 69%);
+    box-shadow:0px 3px hsl(233, 46%, 41%);
+}
+
+#button-area button.button-area-two:active {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+/* Estilo Responsivo de Transferência iOS e Mac OS */
+@media (min-width: 600px) {
+
+    #location-transfer p {
+        width: 50%;
+    }
+
+    #location-transfer #button-area {
+        display: flex;
+        justify-content: center;
+    }
+
+    #location-transfer #button-area .button-area-one {
+        margin-right: 10px;
+    }
+
+    #location-transfer #button-area .button-area-two {
+        margin-left: 10px;
+    }
+
+}
+
+/* Estilo para Informações finais */
+#final-information {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+#final-information svg {
+    display: block;
+    margin: 60px auto;
+}
+
+.display-formatting {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+span.display-formatting:active {
+    cursor: pointer;
+    color: hsl(171, 66%, 44%);
+}
+
+#icones {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    margin: 50px auto 60px auto;
+}
+
+#icones span svg {
+    margin: 0px;
+}
+
+/* Estilo Responsivo de Informações finais */
+@media (min-width: 750px) {
+
+    #final-information {
+        display: flex;
+        background:rgb(234, 236, 237);
+        padding-top: 20px;
+    }
+
+    #final-information svg {
+        margin: 0px 100px 0px 40px;
+    }
+
+    .display-formatting {
+        display: inline-block;
+        height: 20px;
+        text-indent: 0px;
+        margin-bottom: 0px;
+    }
+
+    .block-formatting-one {
+        display: block;
+        margin-top: 30px;
+    }
+
+    .block-formatting-two {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .space {
+        margin-right: 50px;
+    }
+
+    #icones {
+        margin-left: 270px;
+    }
+
+}
