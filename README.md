@@ -6,7 +6,7 @@ Clipboard landing page
 <p>
 Recriei essa landing page do site frontendmentor.io. <br>
 Consegui obter um bom resultado utilizando html, css e bootstrap 4.
-
+<hr>
 Para acessar a aplicação:
 </p>
 
